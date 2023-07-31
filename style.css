@@ -1,0 +1,105 @@
+* {
+    font-family: "Poppins" sans-serif;
+}
+
+.container {
+    width: 100vn;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(titulando.jpg);
+    background-position: center;
+    background-size: cover;  
+    border-radius: 15px;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 30px ;
+}
+
+.container p {
+    font-size: 3rem;
+    color: #eff5f5;
+    text-align: center;
+    text-shadow: 3px 5px 2px #181823;
+}
+
+
+.article {
+    display:flex;
+    flex-direction:inherit;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: justify;
+    gap: 10px;
+    padding-right: 10px;
+    font-family: "Poppins" sans-serif;
+}
+
+.img1 {
+    height: 25vh;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.lasnoti {
+    background-color: #fc7300;
+}
+
+.noticias {
+    background-color: #eff5f5;
+    font-family: "Poppins" sans-serif;
+    display:flex;
+    flex-direction:inherit;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: justify;
+    gap: 20px;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.dateform {
+    background-color: #fc7300;
+    font-family: "Poppins" sans-serif;
+    display:inline-block;
+    place-items: center;
+    margin:auto;
+    text-align: center;
+    border-radius: 30px;
+    margin: 25px;
+    padding: 25px;   
+}
+
+.label {
+    display: inline-block;
+}
+
+.footer {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding: 10px 0 10px 0;
+    background-color: #fc7300;
+    margin: auto;
+    border-radius: 15px;
+    text-decoration: none;
+    
+}
+
+
+
+
+@media (max-width:768px) {
+    .footer {
+        flex-direction: column;
+        align-items: justify;
+        padding-left: 20px;  
+        padding-top: 30px;
+    }
+}
+
